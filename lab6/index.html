@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="ex1.js"></script>
+</head>
+<body>
+    <nav class="header">
+        <a href = index.html class="header_button">Zad  1</a>
+        <a href = zad2.html class="header_button">Zad 2</a>
+        <a href = zad3.html class="header_button">Zad 3</a>
+        <a href = # class="header_button">Zad 4</a>
+        <a href = # class="header_button">Zad 5</a>
+        <a href = # class="header_button">Zad 6</a>
+    </nav>
+
+    <div id="main_container" class="container">
+
+        <div id="list_container" class="container">
+            <div class="container">
+                <label for="element_text">Element text</label>
+                <input type="text" id="element_text" >
+            </div>
+            <div class="container">
+                <label for="list_index">Index</label>
+                <input type="number" id="list_index" min="0">
+            </div>
+            <div class="container">
+                <button id="add_elemnent_button" onclick="addListElement()">Add list element to the bottom</button>
+            </div>
+            <div class="container">
+                <button id="remove_elemnent_button" onclick="removeListElement()">Remove list element</button>
+            </div>
+            <div class="container">
+                <button id="replace_element_button" onclick="replaceListElement()">Replace list element</button>
+            </div>
+            <div class="container">
+                <button id="insert_before_element_button" onclick="insertBeforeListElement()">Insert before list element</button>
+            </div>
+            <div class="container">
+                <button id="add_second_level_element_button" onclick="addSecondLevelListElement()">Add second level list element</button>
+            </div>
+            <div class="container">
+                <button id="chnage_background_element_button" onclick="changeBackground()">Change background of parent element containing child with element text</button>
+            </div>
+            <div>
+                <ul id="list">
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab6</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="ex2.js"></script>
+</head>
+<body>
+    <nav class="header">
+        <a href = index.html class="header_button">Zad  1</a>
+        <a href = zad2.html class="header_button">Zad 2</a>
+        <a href = zad3.html class="header_button">Zad 3</a>
+        <a href = # class="header_button">Zad 4</a>
+        <a href = # class="header_button">Zad 5</a>
+        <a href = # class="header_button">Zad 6</a>
+    </nav>
+
+    <div id="main_container" class="container">
+        <div id="collections_container" class="container">
+            <div class="container">
+                <button id="add_image_button" onclick="addImage()">Add image</button>
+                <button id="add_form_button" onclick="addForm()">Add form</button>
+                <button id="add_anchor_button" onclick="addAnchor()">Add anchor</button>
+            </div>
+            <div class="container">
+                <button id="count_button" onclick="count()">Count Elements</button>
+            </div>
+            <div id="images">
+                <h3>Images</h3>
+            </div>
+            <div id="forms">
+                <h3>Forms</h3>
+            </div>
+            <div id="anchors">
+                <h3>Anchors</h3>
+            </div>
+
+        </div>
+
+       <div id="add_paragraph_container" class="container">
+            <h3>Paragraphs</h3>
+            <div class="container">
+                <label for="add_paragrapgh_text">Paragraph text</label>
+                <input type="text" id="add_paragraph_text" >
+            </div>
+            <div class="container">
+                <label for="add_paragrapgh_id">Paragraph id</label>
+                <input type="text" id="add_paragraph_id" >
+            </div>
+            <div class="container">
+                <label for="paragraph_number">Paragraph Number</label>
+                <input type="number" id="paragraph_number" >
+            </div>
+            <div class="container">
+                <button id="add_paragraph_button" onclick="addParagraph()">Add paragraph at the bottom (number not taken into account)</button>
+            </div>
+            <div class="container">
+                <button id="show_nth_paragraph_button" onclick="showParagraphWithNumber()">Show paragraph with given number</button>
+            </div>
+            <div class="container">
+                <button id="show_paragraph_id_button" onclick="showParagrapghWithId()">Show paragraph with given id</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
